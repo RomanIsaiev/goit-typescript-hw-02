@@ -13,12 +13,6 @@ enum Weekday {
   sunday = "sunday",
 }
 
-function isWeekend(weekday: string) {
-  if (weekday === "saturday" || weekday === "sunday") {
-    return false;
-  } else {
-    return true;
-  }
+function isWeekend(weekday: string): boolean {
+  return weekday === "saturday" || weekday === "sunday" ? false : true;
 }
-
-isWeekend(Weekday.sunday);

@@ -7,7 +7,6 @@ let empty: null = null;
 let notInitialize: undefined;
 
 type CallbackType = (a: number) => number;
-
 let callback: CallbackType = (a) => {
   return 100 + a;
 };
